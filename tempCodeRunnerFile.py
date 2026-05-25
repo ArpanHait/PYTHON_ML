@@ -33,13 +33,16 @@ def plot_clusters(X, labels, centers, title="K-Means Clustering Result"):
 
 def main():
     print("--- Machine Learning Clustering Demonstration ---")
+    
     print("Generating synthetic data...")
+    
     X = generate_data()
     
     print("Performing K-Means clustering (K=4)...")
     labels, centers = perform_clustering(X)
     
     print("Visualization processing...")
+    
     plot_clusters(X, labels, centers)
     
     print("\nSummary:")
