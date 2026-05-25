@@ -47,8 +47,10 @@ def main():
     
     print("\nSummary:")
     print(f"Total Samples: {len(X)}")
+    
     print(f"Number of Clusters: 4")
     print("-" * 45)
+    
     print("Execution complete. Check clustering_result.png for the visual output.")
 
 if __name__ == "__main__":
